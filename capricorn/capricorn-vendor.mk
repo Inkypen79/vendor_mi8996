@@ -6,17 +6,17 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/capricorn
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx378_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_liteon_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx378_liteon_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/imx378_semco_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx378_semco_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/msm8996_camera.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/ov4688_a7_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov4688_a7_chromatix.xml \
-    vendor/xiaomi/capricorn/proprietary/etc/camera/ov4688_primax_a7_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov4688_primax_a7_chromatix.xml \
     vendor/xiaomi/capricorn/proprietary/vendor/firmware/tfa9891.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa9891.cnt \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/capricorn/proprietary/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/silence_short.wav:$(TARGET_COPY_OUT_VENDOR)/etc/silence_short.wav \
     vendor/xiaomi/capricorn/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/camera/imx378_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx378_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/camera/imx378_liteon_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx378_liteon_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/camera/imx378_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx378_semco_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/camera/ov4688_a7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_a7_chromatix.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/camera/ov4688_primax_a7_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_primax_a7_chromatix.xml \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Global_cal.acdb \
