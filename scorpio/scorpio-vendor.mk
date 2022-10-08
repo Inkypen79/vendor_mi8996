@@ -6,16 +6,16 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/scorpio
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx268_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx268_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx268_sunny_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx268_sunny_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx318_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_primax_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx318_primax_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/imx318_semco_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx318_semco_chromatix.xml \
-    vendor/xiaomi/scorpio/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/msm8996_camera.xml \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel.xml \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml \
     vendor/xiaomi/scorpio/proprietary/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/scorpio/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/camera/imx268_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx268_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/camera/imx268_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx268_sunny_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/camera/imx318_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/camera/imx318_primax_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_primax_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/camera/imx318_semco_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx318_semco_chromatix.xml \
+    vendor/xiaomi/scorpio/proprietary/vendor/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/scorpio/proprietary/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Forte/Forte_Global_cal.acdb \
