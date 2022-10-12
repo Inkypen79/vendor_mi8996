@@ -14,7 +14,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/firmware/tfa9891.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa9891.cnt \
     vendor/xiaomi/lithium/proprietary/vendor/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml \
     vendor/xiaomi/lithium/proprietary/vendor/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml \
-    vendor/xiaomi/lithium/proprietary/system/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/lithium/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/lithium/proprietary/vendor/etc/silence_short.wav:$(TARGET_COPY_OUT_VENDOR)/etc/silence_short.wav \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/lithium/proprietary/system/lib64/libnotifyaudiohal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnotifyaudiohal.so \
