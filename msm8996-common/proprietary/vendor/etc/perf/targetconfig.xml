@@ -43,32 +43,46 @@
     <Config1>
 
          <TargetInfo
-             Target="msm8996"
+             Target="msm8953"
              NumClusters="2"
-             TotalNumCores="4"
-             SocIds="246,291"
+             TotalNumCores="8"
+             SocIds="293,304"
              SynCore="1"
-             MinCoreOnline="0" />
+             MinCoreOnline="0"
+             GovInstanceType="1" />
 
-         <ClustersInfo Id="0" NumCores="2" Type="little" />
-         <ClustersInfo Id="1" NumCores="2" Type="big" />
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
 
     </Config1>
 
     <Config2>
-         <!-- For msm8996 Pro target, perfboosts tuning is same as msm8996.
-         So, they share a common target name. -->
+
          <TargetInfo
-             Target="msm8996"
+             Target="sdm450"
              NumClusters="2"
-             TotalNumCores="4"
-             SocIds="305,312"
+             TotalNumCores="8"
+             SocIds="338,351"
+             SynCore="1"
+             MinCoreOnline="0"
+             GovInstanceType="1" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
+
+    </Config2>
+    <Config3>
+
+         <TargetInfo
+             Target="sdm632"
+             NumClusters="2"
+             TotalNumCores="8"
+             SocIds="349,350"
              SynCore="1"
              MinCoreOnline="0" />
 
-         <ClustersInfo Id="0" NumCores="2" Type="little" MaxFrequency="1593600" />
-         <ClustersInfo Id="1" NumCores="2" Type="big" />
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
 
-    </Config2>
-
+    </Config3>
 </TargetConfig>
